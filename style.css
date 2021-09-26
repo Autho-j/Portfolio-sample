@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 220px;
+    height: 550px;
+    padding: 50px;
+    margin: 7px 5px;
+    background-color: #edf0f1;
+    position: sticky;
+    top: 10px;
+    border-radius: 30px;
+}
+
+.side-menu-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.side-menu-logo h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #228f50;
+}
+
+.side-menu img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.side-menu ul {
+    list-style: none;
+    align-items: center;
+    position: relative;
+    margin: 7px 7px;
+    transform: translateX(-50%);
+}
+
+.side-menu ul li {
+    background-color: #edf0f1;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 20px 5px;
+    padding: 10px;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.side-menu ul li:hover {
+    background-color: #58BC82;
+    letter-spacing: 1px;
+}
+
+.side-menu ul li a {
+    color: #222;
+}
+
+.side-menu ul li box-icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.pages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.summary {
+    min-height: 60vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.about {
+    min-height: 60vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.education {
+    min-height: 60vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.work-exp {
+    min-height: 60vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.skills {
+    min-height: 95vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.contact {
+    min-height: 40vh;
+    background-color: #D7FFFD;
+    border-radius: 30px;
+    margin: 10px 3px;
+    padding: 20px 30px;
+}
+
+.edu-section {
+    padding: 20px 10px;
+}
+
+.edu-section ul {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.edu-section ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px 5px;
+    white-space: nowrap;
+}
+
+.edu-section h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.edu-section a {
+    color: #222;
+}
+
+.edu-section ul li box-icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.work-exp ul {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.work-exp ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px 5px;
+    white-space: nowrap;
+}
+
+.work-exp h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.work-exp a {
+    color: #222;
+}
+
+.work-exp ul li box-icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.skills .skills-container {
+    background: rgba(28, 231, 147, 0.2);
+    width: 700px;
+    height: 440px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+
+.skills .skills-container .html {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .skills-container .css {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .skills-container .js {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .skills-container .python {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .skills-container .java {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .skills-container .dart {
+    background: rgba(28, 231, 147, 0.8);
+    width: 660px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.pg-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.html,
+.css,
+.js,
+.python,
+.java,
+.dart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pg-container p {
+    color: #fff;
+}
+
+.per {
+    height: 20px;
+    width: 550px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.per-ctnr-html-css-java-dart {
+    height: 20px;
+    width: 330px;
+    background-color: #228f50;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.per-ctnr-js {
+    height: 20px;
+    width: 275px;
+    background-color: #228f50;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.per-ctnr-py {
+    height: 20px;
+    width: 400px;
+    background-color: #228f50;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.ct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.address,
+.mail,
+.phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #222;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer .social {
+    margin: 16px 20px;
+}
+
+.footer .btm-logo {
+    margin: 10px 20px;
+}
+
+.footer .btm-logo img {
+    width: 40px;
+    border-radius: 50%;
+
+}
